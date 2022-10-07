@@ -1,0 +1,47 @@
+*{
+   margin: 0;
+   padding: 0;
+   font-family: Candara, Copperplate Gothic;
+   
+}
+
+header {
+    background-color: rgb(34, 124, 34);
+    color: rgb(246, 246, 249);
+    text-align: center;
+    width: 100%;
+    position: fixed;
+}
+.a{
+    display: inline;
+    color: rgb(246, 246, 249);
+
+}
+
+.back{
+    background-color: blanchedalmond;
+    text-align: center;
+    margin:10px;
+    padding: 10px 20px;
+    border: solid 10px coral;
+
+    
+
+}
+
+h2{
+    font-size: 200%;
+}
+footer {
+    background-color:rgb(34, 124, 34) ;
+    border-top: 10px solid coral;
+    margin: bottom;
+
+    
+}
+
+
+
+
+
+

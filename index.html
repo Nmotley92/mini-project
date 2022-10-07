@@ -5,27 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Page</title>
-    <link rel="stylesheet" href="assets/styles.css/">
+    <link rel="stylesheet" href="./assets/style.css">
 </head>
+
 <body>
+
     <header>
         <h1>Stuck the Landing</h1>
         <nav>
-            <a href="">Contact</a>
-            <a href="">Github</a>
-            <a href="">Email</a>
+            <ul>
+            <li class="a"><a class="a" href="#contact">Contact</a></li>
+            <li class="a"><a class="a" href="https://github.com/Nmotley92">Github</a></li>
+            <li class="a"><a class="a" href="nmotley92@gmail.com">Email</a></li>
+            </ul>
         </nav>
     </header>
 
-    <section>
-        <h2>Welcome</h2>
+    <section class="back">
+        <h2>Welcome to the site</h2>
         <img src="assets/Landing-1.png" alt="An image with a L and the word landing">
+        <h3>Thank you for visiting this page! If you could please take time to fill out the contact info it would be much appreciated.</h3> -->
     </section>
 
-    <section>
-        <h2>Contact Me</h2>
-        
+
+
+    <section class="back" id="contact">
+        <h2>Contact me</h2>
+        <ul>
+            <li><label for="name">Name:</label> <input type="text" id="name" name="name" placeholder="First and Last name "></li>
+            <br>
+            <li><label for="name">Email:</label><input type="text" id="email" name="email" placeholder="Email "></li>
+            
+            <li><button>Submit</button></li>
+        </ul>
     </section>
+    <footer>
+    © 2022 Landing site
+   </footer>
+     
 
 
 
