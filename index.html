@@ -4,48 +4,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Page</title>
+    <title>Landing Page</title>
     <link rel="stylesheet" href="./assets/style.css">
 </head>
 
 <body>
-
+    <!--Starts the header with three nav links  -->
     <header>
         <h1>Stuck the Landing</h1>
         <nav>
             <ul>
             <li class="a"><a class="a" href="#contact">Contact</a></li>
-            <li class="a"><a class="a" href="https://github.com/Nmotley92">Github</a></li>
-            <li class="a"><a class="a" href="nmotley92@gmail.com">Email</a></li>
+            <li class="a"><a class="a" href="https://github.com">Github</a></li>
+            <li class="a"><a class="a" href="https://github.com/Nmotley92">Portfolio</a></li>
             </ul>
         </nav>
     </header>
 
-    <section class="back">
-        <h2>Welcome to the site</h2>
+    <!-- The Image with a caption-->
+    <figure class="back">
+        <h2>Welcome to the new page</h2>
         <img src="assets/Landing-1.png" alt="An image with a L and the word landing">
-        <h3>Thank you for visiting this page! If you could please take time to fill out the contact info it would be much appreciated.</h3> -->
-    </section>
+        <figcaption>Temporary Image</figcaption>
+    </figure>
 
-
-
-    <section class="back" id="contact">
+    <!-- The contact section -->
+    <section class="back">
         <h2>Contact me</h2>
-        <ul>
-            <li><label for="name">Name:</label> <input type="text" id="name" name="name" placeholder="First and Last name "></li>
-            <br>
-            <li><label for="name">Email:</label><input type="text" id="email" name="email" placeholder="Email "></li>
-            
-            <li><button>Submit</button></li>
-        </ul>
+        <p>Thank you for visiting this page! If you could please take time to fill out the contact info it would be much appreciated.</p><br>
+
+        <form id="contact">
+            <label for="name">Name:</label> <input type="text" id="name" name="name" placeholder="First and Last name "><br>
+            <label for="email">Email:</label><input type="text" id="email" name="email" placeholder="Email "><br>
+            <button>Send</button>
+        </form>
     </section>
+    
     <footer>
-    © 2022 Landing site
-   </footer>
-     
-
-
-
+    © 2022 Landing page
+    </footer
 </body>
 
 </html>
